@@ -1,12 +1,11 @@
 import streamlit as st
 
-st.write("VERSI TERBARU - TES UPDATE")
 
 # =========================
 # KONFIGURASI HALAMAN
 # =========================
 st.set_page_config(
-    page_title="Kalkulator Kimia Analisispppp",
+    page_title="Kalkulator Kimia Analisis",
     page_icon="⚗️",
     layout="centered"
 )
