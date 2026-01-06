@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.write("VERSI TERBARU - TES UPDATE")
 
 # =========================
 # KONFIGURASI HALAMAN
