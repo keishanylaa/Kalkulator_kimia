@@ -63,8 +63,8 @@ if menu == "Faktor Pengenceran":
 
     st.subheader("⚗️ Faktor Pengenceran")
     st.write("Faktor pengenceran (FP) adalah bilangan yang menyatakan seberapa besar suatu larutan diencerkan dibandingkan larutan awalnya. Faktor pengenceran banyak digunakan dalam kimia analitik, farmasi, biologi, dan analisis instrumen (misalnya AAS) untuk menghitung konsentrasi akhir setelah pengenceran.")
-    st.write("Rumus mencari FP adalah volume labu takar/volume yang dipipet")
-    st.write("Rumus untuk pengenceran adalah Consentration1.Volume1=Consentration2.Volume2")
+    st.write("Rumus mencari FP adalah volume labu takar : volume yang dipipet")
+    st.write("Rumus untuk pengenceran adalah Consentration1 . Volume1 = Consentration2 . Volume2")
     sub_menu = st.radio(
         "Pilih perhitungan:",
         ("Faktor pengenceran", "Volume yang harus diambil")
@@ -108,7 +108,7 @@ elif menu == "Molaritas":
 
     st.subheader("⚗️ Molaritas")
     st.write("Molaritas (M) adalah satuan konsentrasi larutan yang menyatakan jumlah mol zat terlarut dalam setiap 1 liter larutan. Molaritas sangat umum digunakan dalam kimia analitik, kimia fisik, dan farmasi, terutama untuk perhitungan reaksi dan stoikiometri.")
-    st.write("Rumus Molaritas adalah M= mol/Liter; Jika diketahui massa zatnya maka: M= massa zat(g)/ Mr(g/mol).Volume(L) ")
+    st.write("Rumus Molaritas adalah M= mol/Liter; Jika diketahui massa zatnya maka: M= massa zat (g) : Mr (g/mol) . Volume (L) ")
     metode = st.radio(
         "Metode perhitungan:",
         ("Menggunakan massa", "Menggunakan database Mr")
@@ -146,7 +146,7 @@ elif menu == "Normalitas":
 
     st.subheader("⚗️ Normalitas")
     st.write("Normalitas (N) adalah satuan konsentrasi larutan yang menyatakan jumlah ekivalen zat terlarut dalam setiap 1 liter larutan.Normalitas banyak digunakan dalam titrasi asam–basa, redoks, dan analisis volumetri, karena langsung berkaitan dengan stoikiometri reaksi.")
-    st.write("Rumus Normalitas adalah N=ekivalen/Volume(L); Jika massanya diketahui maka N=massa zat (g). faktor ekivalen/ Mr(g/mol).Volume(L)")
+    st.write("Rumus Normalitas adalah N=ekivalen : Volume (L); Jika massanya diketahui maka N= massa zat (g) . faktor ekivalen : Mr (g/mol) . Volume (L)")
     metode = st.radio(
         "Metode perhitungan:",
         ("Menggunakan massa", "Menggunakan database Mr")
@@ -184,8 +184,8 @@ elif menu == "mg/L":
 
 
     st.subheader("⚗️ mg/L")
-    st.write("konsentrasi mg/L (ppm) adalah cara menyatakan konsentrasi zat sebagai jumlah miligram zat terlarut dalam setiap 1 liter (L) larutan. Satuan mg/L sangat umum digunakan dalam analisis kimia, lingkungan, farmasi, dan AAS, terutama untuk menyatakan kadar zat dalam konsentrasi rendah.")
-    st.write("untuk mencari massa, kita bisa menggunakan rumus massa(mg)= konsentrasi (mg/L).Volume (L)")
+    st.write("konsentrasi mg/L (ppm) adalah cara menyatakan konsentrasi zat sebagai jumlah miligram zat terlarut dalam setiap 1 liter (L) larutan . Satuan mg/L sangat umum digunakan dalam analisis kimia, lingkungan, farmasi, dan AAS, terutama untuk menyatakan kadar zat dalam konsentrasi rendah.")
+    st.write("untuk mencari massa, kita bisa menggunakan rumus massa (mg)= konsentrasi (mg/L) . Volume (L)")
     sub = st.radio(
         "Pilih perhitungan:",
         ("Cari konsentrasi", "Cari massa", "Cari volume")
@@ -227,7 +227,7 @@ elif menu == "% b/v":
 
     st.subheader("⚗️ % b/v")
     st.write("(persen berat per volume) adalah satuan konsentrasi yang menyatakan jumlah zat (dalam gram) yang terdapat dalam setiap 100 mL larutan. Satuan % b/v sering digunakan dalam kimia analitik, farmasi, dan laboratorium untuk menyatakan konsentrasi larutan padat dalam cairan.")
-    st.write("Rumus %b/v= massa zat terlarut (g) /volume total campuran(mL) .100%")
+    st.write("Rumus %b/v= massa zat terlarut (g) : volume total campuran (mL) . 100%")
     sub = st.radio(
         "Pilih perhitungan:",
         ("Cari %", "Cari massa", "Cari volume")
@@ -273,7 +273,7 @@ elif menu == "% b/b":
         "dalam setiap 100 gram campuran."
     )
     st.write("% b/b sering digunakan untuk campuran padat–padat, salep, serbuk, dan sediaan farmasi atau bahan kimia yang tidak bergantung pada perubahan volume.")
-    st.write("Rumus %b/b= massa zat terlarut (g)/massa total campuran (g) .100%")
+    st.write("Rumus %b/b= massa zat terlarut (g) : massa total campuran (g) . 100%")
 
 
     sub = st.radio(
@@ -345,7 +345,7 @@ elif menu == "% v/v":
         "dalam setiap 100 mL larutan."
     )
     st.write("% v/v umum digunakan untuk menyatakan konsentrasi campuran cair–cair, misalnya alkohol, pelarut organik, dan larutan farmasi.")
-    st.write("Rumus %v/v= volume zat terlarut (mL) /volume total campuran (mL) .100%")
+    st.write("Rumus %v/v= volume zat terlarut (mL) : volume total campuran (mL) . 100%")
 
 
     sub = st.radio(
