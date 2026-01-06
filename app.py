@@ -108,7 +108,7 @@ elif menu == "Molaritas":
 
     st.subheader("⚗️ Molaritas")
     st.write("Molaritas (M) adalah satuan konsentrasi larutan yang menyatakan jumlah mol zat terlarut dalam setiap 1 liter larutan. Molaritas sangat umum digunakan dalam kimia analitik, kimia fisik, dan farmasi, terutama untuk perhitungan reaksi dan stoikiometri.")
-    st.write("Rumus Molaritas adalah M= mol/Liter; Jika diketahui massa zatnya maka: M= massa zat (g) : Mr (g/mol) . Volume (L) ")
+    st.write("Rumus Molaritas adalah M= mol : Liter; Jika diketahui massa zatnya maka: M= massa zat (g) : Mr (g/mol) . Volume (L) ")
     metode = st.radio(
         "Metode perhitungan:",
         ("Menggunakan massa", "Menggunakan database Mr")
@@ -146,7 +146,7 @@ elif menu == "Normalitas":
 
     st.subheader("⚗️ Normalitas")
     st.write("Normalitas (N) adalah satuan konsentrasi larutan yang menyatakan jumlah ekivalen zat terlarut dalam setiap 1 liter larutan.Normalitas banyak digunakan dalam titrasi asam–basa, redoks, dan analisis volumetri, karena langsung berkaitan dengan stoikiometri reaksi.")
-    st.write("Rumus Normalitas adalah N=ekivalen : Volume (L); Jika massanya diketahui maka N= massa zat (g) . faktor ekivalen : Mr (g/mol) . Volume (L)")
+    st.write("Rumus Normalitas adalah N= ekivalen : Volume (L); Jika massanya diketahui maka N= massa zat (g) . faktor ekivalen : Mr (g/mol) . Volume (L)")
     metode = st.radio(
         "Metode perhitungan:",
         ("Menggunakan massa", "Menggunakan database Mr")
