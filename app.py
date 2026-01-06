@@ -19,7 +19,7 @@ def set_bg_from_local(image_file):
         unsafe_allow_html=True
     )
 
-set_bg_from_local("background.jpg.jpeg")
+set_bg_from_local("bg.jpeg")
 
 
 # =========================
